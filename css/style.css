@@ -15,6 +15,12 @@ body {
     padding: 0;
 }
 
+#map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .flexc {
     margin: 1.1em;
 }
@@ -121,15 +127,6 @@ select {
     border-color: rgba(132, 132, 132, 0.33);
     color: #000;
     border-radius: .3em;
-}
-
-#map {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 button {
