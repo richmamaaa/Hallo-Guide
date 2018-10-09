@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search - Hallo Guide</title>
+    <meta name="description" content="Your local guide to your likely favorites around the globe. Share your experiences and learn the inside tips of every city.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="icon" href="img/smileyfav.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="immg/hallo-logo.png"></a>
+        <a href=coffee.html>
+    <img src="immg/map-grey.png" class="profile" alt="Map">
+    </a>
+        <a href=search.html>
+    <img src="immg/search.png" class="profile" alt="Search">
+    </a>
+        <a href=profile.html>
+    <img src="immg/profile-blue.png" class="profile" alt="My profile">
+    </a>
+    </header>
+    <div id='map'></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoicG90c2tpIiwiYSI6ImNqbjBwcmxqOTNwY3Uza3BudjhmZnBnZmkifQ.2MOUMucAI0IqrBQnYecTDA';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/potski/cjn0psxns4le12smq5s2hj8ex',
+            center: [10.210799, 56.156147],
+            zoom: 16.0
+        });
+    </script>
+</body>
+
+</html>
