@@ -21,6 +21,10 @@ body {
     height: 100%;
 }
 
+article {
+    margin-bottom: -4em;
+}
+
 .flexc {
     margin: 1.1em;
 }
@@ -122,8 +126,8 @@ select {
     float: right;
     width: 50%;
     min-height: 1.85em;
-    font-size: .6em;
-    padding-left: .6em;
+    font-size: .56em;
+    padding-left: 1em;
     border-color: rgba(132, 132, 132, 0.33);
     color: #000;
     border-radius: .3em;
@@ -141,6 +145,7 @@ button {
     cursor: pointer;
     margin-top: 1.2em;
     border-radius: 2%;
+    margin-bottom: .7em;
 }
 
 a {
@@ -254,5 +259,9 @@ button:hover {
         float: right;
         width: 1.6em;
         padding-right: .6em;
+    }
+
+    button {
+        margin-bottom: 0;
     }
 }
